@@ -1,0 +1,29 @@
+name: agent-eval
+channels:
+  - nvidia
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  # GPU stack (A100-friendly; remove if CPU only)
+  - pytorch=2.2.*
+  - pytorch-cuda=12.1
+  - cudatoolkit
+  # Scientific stack
+  - numpy>=1.24
+  - pandas>=2.0
+  - scikit-learn>=1.3
+  - matplotlib>=3.7
+  - jupyterlab>=4.1
+  - ipykernel>=6.29
+  - spacy>=3.7
+  - pip:
+      - transformers>=4.41.0
+      - tokenizers>=0.15.2
+      - datasets>=2.19.0
+      - pistonpy>=1.7.0
+      - textstat>=0.7.3
+      - textdescriptives>=2.10.0
+      - tqdm>=4.66.0
