@@ -1,4 +1,4 @@
-# Agent Evaluation — README
+# Educational Code Generation using LLMs with Self-Refinement — README
 
 > Reproducible notebooks for (i) generating solutions + tests and (ii) evaluating final explanations.
 
@@ -91,7 +91,7 @@ For Colab runs:
 ### 2) Evaluate explanations (`evaluation/final_explanation_evaluation.ipynb`)
 
 - Mount Google Drive and set `.pkl` file paths accordingly  
-- Run all cells  
+- Run all cells (you may have to restart session after installing or upgrading packages in Colab) 
 - Expected output: `.csv` file with evaluation metrics saved to your Drive
 
 ---
